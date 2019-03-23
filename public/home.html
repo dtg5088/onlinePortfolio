@@ -1,42 +1,271 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Devan Gillaird - Portfolio</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-    <link href="assests/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-</head>
-<body>
+    <link
+      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+    />
+    <!--File default css-->
+    <link
+      href="assests/css/style.css" rel="stylesheet" type="text/css" media="all"
+    />
+     <!--JavaScript at end of body for optimized loading-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
     <div id="page" class="container">
-        <div id="header">
-            <div id="profile">
-                <img src="images/pic02.jpg" alt="" />
-                <h1><a href="#">Devan Gillaird</a></h1>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo logoClose">Portfolio</a>
+                <a href="#" class="logoPop">Devan Gillaird</a>
             </div>
-            <div id="menu">
+        </nav>
+      <div id="header">
+        <div id="profile">
+          <img src="assests/Images/Devan-TopOfRock-Edited4.png" alt="" />
+          <h2><a href="#">Devan Gillaird</a></h2>
+        </div>
+        <div id="menu">
+          <ul>
+            <li class="current_page_item">
+              <a href="#" accesskey="1" title="">Homepage</a>
+            </li>
+            <li><a href="#AboutMe" accesskey="3" title="">About Me</a></li>
+            <li><a href="#Projects" accesskey="2" title="">Projects</a></li>
+            <li><a href="#Certifications" accesskey="4" title="">Certifications</a></li>
+            <li><a href="#Skills" accesskey="5" title="">Skills</a></li>
+            <li><a href="#ContactMe" accesskey="6" title="">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+          
+        <img class="paraImg" src="assests/Images/skyline-NewYork2.jpg" alt="">
+
+            <div class="nav2">
                 <ul>
-                    <li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
-                    <li><a href="#" accesskey="2" title="">Our Clients</a></li>
-                    <li><a href="#" accesskey="3" title="">About Us</a></li>
-                    <li><a href="#" accesskey="4" title="">Careers</a></li>
-                    <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+                    <li><a href="#AboutMe" accesskey="3" title="">About Me</a></li>
+                    <li><a href="#Projects" accesskey="2" title="">Projects</a></li>
+                    <li><a href="#Certifications" accesskey="4" title="">Certifications</a></li>
+                    <li><a href="#Skills" accesskey="5" title="">Skills</a></li>
+                    <li><a href="#ContactMe" accesskey="6" title="">Contact Me</a></li>
                 </ul>
             </div>
-        </div>
-        <div id="main">
-            <div class="imgWrapper">
-                <img src="" alt="">
+            
+            <!--About me section -->
+   <div class="titleCon"> <h4><a name="AboutMe"> About Me</a></h4></div>
+   <div class="container1">
+       <div class="">
+           <h5 class="sectionHeaderAbt"> Professional Summary</h5>
+               <p>Currently enrolled at George Washington University’s Software Development program, seeking an opportunity to use my critical thinking
+                    and problem-solving skills to become an asset for the right company. Continuing to further my knowledge of Software development, 
+                    project management and Quality Assurance through rigorous training and fast pace studying. In a work environment I follow the mentality
+                     “if everyone is moving forward collaboratively, then success will certainly follow.”</p>
+               
+       </div>
+       <div class="row">
+               <h5 class="sectionHeaderAbt" style="margin-top: 10px;"> Education</h5></div>
+                   <div class="row">
+                       
+                       <div class="col-md-9">
+                           <h4 class="collegeTitle">The Pensylvainia State University</h4>
+                           <p> <strong> BS - Structural Design and Construction Engineering Technology</strong> <br>
+                               Dual Concentration: Construction Management and Structural Engineering
+                           </p>
+                       </div>
+                       <!-- <div class="imgDiv col-md-2" style="float: left;"><img style="height: 150px; width: auto; margin: 0px;" src="assests/images/PennState.png" alt=""> </div> -->
+                       
+                   </div>
+           
+   </div>
+
+<!-- Project section -->
+<div class="titleCon"> <h4><a name="Projects"> Projects</a></h4></div>
+<div class="container1">
+   <div class="row">
+       
+        
+           <div class="sectionTab2">
+               <!--Project One-->
+               <h5 class="sectionTabh5">OpenPass</h5>
+               <a href="https://dtg5088.github.io/openPass/">
+               <img class="imgDiv2" src="assests/images/OpenPass.JPG" alt="OpenPass-Ticket website"></a>
+               <p>OpenPass allows the user to be able to search for events, shows, performers and find tickets for the event. </p>
+               <a href="https://github.com/MoniqueMo/OpenPassProject">Github Link</a>
+           </div>
+       
+
+       
+           <div class="sectionTab2">
+               <!--Project Two-->
+               <h5 class="sectionTabh5">Giftastic</h5>
+               <a href="https://dtg5088.github.io/GifTastic/">
+               <img class="imgDiv2" src="assests/images/Giftastic.JPG" alt="Giftastic - website"></a>
+               <p>Giftastic finds giphs based on the input of the user and presents them to the page using Ajax and jquery</p>
+               <a href="https://github.com/dtg5088/GifTastic">Github Link</a>
+           </div>
+       
+
+       
+           <div class="sectionTab2">
+               <!--Project Three-->
+               <h5 class="sectionTabh5">InspireMe</h5>
+               <a href="https://dtg5088.github.io/RandomQuoteGenerator/">
+                <img class="imgDiv2" src="assests/images/randomQuoteGenerator.JPG" alt="randomQuoteGenerator"></a>
+                <p>The InspireMe web page automatically fades inspirational and motivational quotes to the DOM to inspire the user</p>
+                <a href="https://github.com/dtg5088/RandomQuoteGenerator">Github Link</a>
+           </div>
+           <div class="divider"></div>
+
+           <div class="sectionTab2">
+                <!--Project four-->
+                <h5 class="sectionTabh5">FlyMe</h5>
+                <a href="https://dtg5088.github.io/FlyMe/">
+                    <img class="imgDiv2" src="assests/images/Flyme.PNG" alt="randomQuoteGenerator"></a>
+                    <p>Students seeking to obtain a private or commercial pilot license are able to sign up to fly for flight experience. </p>
+                    <a href="https://github.com/dtg5088/FlyMe">Github Link</a>
             </div>
+       
+            <div class="sectionTab2">
+                <!--Project five-->
+                <h5 class="sectionTabh5">Bamazon</h5>
+                <a href="https://www.youtube.com/watch?v=VqNyyysoMfk&t=7s">
+                <img class="imgDiv2" src="assests/images/Bamazon.PNG" alt="randomQuoteGenerator"></a>
+                <p>Backend - This application uses Node.js and mySQL to view, purchase, and add product to and from the invintory, which is stored on mySQL.</p>
+                <a href="https://github.com/dtg5088/Bamazon">Github Link</a>
+            </div>
+            <div class="sectionTab2">
+                    <!--Project six-->
+                    <h5 class="sectionTabh5">Start Wars RPG</h5>
+                    <a href="https://dtg5088.github.io/starWarsRPG/">
+                    <img class="imgDiv2" src="assests/images/StarWars RPG.JPG" alt="randomQuoteGenerator"></a>
+                    <p>A Star Wars RPG game, the user is able to pick a hero and defeat sith lords scattered throughout the StarWars Universe, chose your opponet wisely or taste early defeat.</p>
+                    <a href="https://github.com/dtg5088/starWarsRPG">Github Link</a>
+                </div>
+
+   </div>
+</div>
+
+
+<!--Skills and Certifications -->
+<div class="titleCon"> <h4><a name="Certifications"> Certifications</a></h4></div>
+<div class="container1" style="overflow: hidden;">
+   
+   <div class="row">
+           <!--Certification section-->
+           <!-- <h3 class="sectionHeader">Certifications</h3> -->
+           
+           <!-- GW Certification  -->
+           
+           <div class="row" style="padding: 20px;">
+                   <div class="imgDiv col-md-3" style="float: left;"><img style="height: auto; width: 100%; margin-left: 20px" src="assests/images/coding.jpg" alt=""> </div>
+                       <div class="col-md-8">
+                           <h4 class="certTitle">George Washington University (Software Development Certification)</h4>
+                           <p> <strong>Full Stack Software Development Program</strong> <br>
+                               George Washington's hands-on engineering curriculum covers a full-stack developing, including HTML5, CSS3, JavaScript, jQuery, 
+                               Java, Bootstrap, Express.js, React.js, Node.js, MongoDB, MySQL, and much more.
+                           </p>
+                   </div>
+               </div>
+
+               <!-- ISTQB Certification  -->
+
+               <div class="row" style="margin-top: 20px; border-top: solid 2px lightgray; padding: 20px;">
+                       <div class="imgDiv col-md-3" style="float: left;"><img style="height: auto; width: 100%; margin-left: 20px" src="assests/images/istqb.png" alt=""> </div>
+                           <div class="col-md-8">
+                               <h4 class="certTitle">International Software Testing Qualifications Board</h4>
+                               <p> <strong>ISTQB Foundation Level software testing certification (CTFL)</strong> <br>
+                                   Demonstrated knowlege on how to evaluate the functionality of a software application with an intent to find whether the developed software met the specified requirements. To identify
+                                    the defects to ensure that the product has a low level of failure, in response, it allows the tested software to recieve some credibility in quality assured.
+                               </p>
+                       </div>
+                   </div>
+
+               <!-- OCAJ Certification  -->
+
+               <div class="row" style="margin-top: 20px; border-top: solid 2px lightgray; padding: 20px;">
+                       <div class="imgDiv col-md-3" style="float: left;"><img style="height: auto; width: 100%; margin-left: 20px" src="assests/images/OCASE8.jpg" alt=""> </div>
+                           <div class="col-md-8">
+                               <h4 class="certTitle">Oracle (OCA Java SE 8) [In Progress]</h4>
+                               <p> <strong>Oracle Certified Associate Java SE 8 </strong> <br>
+                                   The Java SE 8 Oracle Certified Associate (OCA) certification helps you build a foundational understanding of Java, while expanding your knowledge of general programming.
+                                   Preparing for this certification cultivates in demand Java programming skills such as Object-Oriented Programming, Encapsulation, Inheritance, Polymorphism,
+                                   java types, creating conditional statements, loops, and manipulating arrays.
+                               </p>
+                       </div>
+                   </div>
+
+       </div>
+   </div>
+
+<div class="titleCon"> <h4><a name="Skills"> Skills</a></h4></div>
+<div class="container1" style="overflow: hidden;">
+   <div class="row">
+       <!--Skills section-->
+       <!-- <h3 class="sectionHeader">Skills</h3> -->
+           <div class="sectionTab">
+               <!--HTML-->
+               <img class="tapered" src="assests/images/html1.jpg" style="width: 100%; height: auto; align-content: center;" alt="">
+               <h5 class="sectionTabh5">HTML</h5>
+               <p>Proficiency with defining the structure and layout of Web documents by coding tags, and specifying hypertext. </p>
+           </div>
+               
+           <div class="sectionTab">
+               <!--CSS-->
+               <img class="tapered" src="assests/images/CSS1.jpg" style="width: 100%; height: auto; align-content: center;" alt="">
+               <h5 class="sectionTabh5">CSS</h5>
+               <p>Experienced with coding web applications using cascading style sheets allowing greater design consistency and easier maintenance.</p>
+           </div>
+           
+           <div class="sectionTab">
+               <!--JavaScript-->
+               <img class="tapered" src="assests/images/javascriptF.jpg" style="width: 100%; height: auto; align-content: center;" alt="">
+               <h5 class="sectionTabh5">JavaScript</h5>
+               <p>Proficiency programming in javascript manipulating the DOM with jquery, constructors and AJAX functions</p>
+           </div>
+
+           <div class="sectionTab">
+               <!--Node.js-->
+               <img class="tapered" src="assests/images/nodejs.png" style="width: 100%; height: auto; align-content: center;" alt="">
+               <h5 class="sectionTabh5">Node.js</h5>
+               <p>Skillful coding backend requests andfunctions utilizing npms like axios, inquirer, and modularizations</p>
+           </div>
+
+           <div class="sectionTab">
+               <!--Java-->
+               <img class="tapered" src="assests/images/java1.png" style="width: 100%; height: auto; align-content: center;" alt="">
+               <h5 class="sectionTabh5">Java</h5>
+               <p>Experience programming projects using Object Oriented Programming, inheritance and Polymorphic arrays </p>
+           </div>
+
+   </div>
+</div>
 
 
 
-        </div>
+
+
+
+             <!-- <div class="parallax-container">
+                <div class="parallax"><img src="assests/Images/skyline-NewYork2.jpg"></div>
+            </div> -->
+
+      </div>
     </div>
+
+    <!-- MAterialize Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assests/javascript/script.js"></script>
 </body>
 </html>
