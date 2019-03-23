@@ -1,0 +1,26 @@
+{
+  "name": "onlineportfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "heroku": "^7.22.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtg5088/onlinePortfolio.git"
+  },
+  "author": "Devan Gillaird",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtg5088/onlinePortfolio/issues"
+  },
+  "homepage": "https://github.com/dtg5088/onlinePortfolio#readme"
+}
