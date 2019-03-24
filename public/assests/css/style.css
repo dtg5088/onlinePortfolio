@@ -9,6 +9,10 @@
   background: #2a2a2a;
 }
 
+body {
+  background-image: url("../Images/greyConcreteFloor.png");
+}
+
 #header {
   position: relative;
   float: left;
